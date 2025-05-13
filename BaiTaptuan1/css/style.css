@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header, #footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+#slider {
+    background-color: #e9ecef;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#aside {
+    float: left;
+    width: 20%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    min-height: 400px;
+}
+
+#content {
+    float: left;
+    width: 80%;
+    padding: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.mau_thiet_ke_moi,
+.noi_that_cao_cap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+
+.san_pham,
+.sp_cao_cap {
+    width: calc(33.333% - 20px);
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.san_pham img,
+.sp_cao_cap img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.san_pham h3,
+.sp_cao_cap h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.san_pham p,
+.sp_cao_cap p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.sp_cao_cap p span {
+    color: #d23434;
+    font-weight: bold;
+}
+
+.sp_cao_cap a {
+    display: inline-block;
+    background-color: #d23434;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sp_cao_cap a:hover {
+    background-color: #a82323;
+}
+
+.dia_chi {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 10px;
+}
